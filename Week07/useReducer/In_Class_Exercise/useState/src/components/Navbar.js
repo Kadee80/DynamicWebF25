@@ -23,6 +23,9 @@ const Navbar = () => {
       <Link to="/modal" className="text-blue-500">
         Modal
       </Link>
+      <Link to="/counter" className="text-blue-500">
+        Counter
+      </Link>
       {/* Add link to your component page for HW */}
     </Panel>
 
