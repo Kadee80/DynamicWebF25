@@ -1,8 +1,8 @@
 # Intro To Redux: `useReducer`
 
-Today we are going to first take a look at the React hook `useReducer`. To do so, we are going to make a quick counter (yes, another counter) in a `CounterPage` inside the app we have been working on for the past few weeks. Before we do that, let’s add another highly reusable component called `Card`. Our card component is simply a full width div with a light rounded border, a drop shadow, and the ability to add in other custom classes via the `className` prop.
+Today we are going to first take a look at the React hook `useReducer`. To do so, we are going to make a quick counter (yes, another counter) in a `CounterPage` inside the app we have been working on for the past few weeks. 
 
-Note: Last week we disabled our Typescript Plugin when working with Flow. Let’s make sure it is re-enabled today so we have access to all of the autocomplete goodies that plugin gives us for free.
+ Let’s make sure out typescript plugin  is enabled today so we have access to all of the autocomplete goodies that plugin gives us for free.
 
 To enable/disable the TypeScript plugin, go to the extensions panel (4th icon down in the left sidebar) and search :
 
