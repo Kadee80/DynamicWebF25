@@ -8,6 +8,7 @@ import AccordionPage from './pages/AccordionPage'
 import DropdownPage from './pages/DropdownPage'
 import ModalPage from './pages/ModalPage'
 import CounterReducerPage from './pages/CounterReducerPage'
+import CounterContextPage from './pages/counterContext'
 // then your CSS and or DATA files
 // import './index.css'
 // data example
@@ -29,6 +30,11 @@ const App = () => {
           <Route
             path="/counter"
             element={<CounterReducerPage initialCount={23} />}
+          />
+
+          <Route
+            path="/context"
+            element={<CounterContextPage initialCount={23} />}
           />
         </Routes>
       </div>
