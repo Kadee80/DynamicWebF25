@@ -26,6 +26,9 @@ const Navbar = () => {
       <Link to="/counter" className="text-blue-500">
         Counter
       </Link>
+      <Link to="/context" className="text-blue-500">
+        Context
+      </Link>
       {/* Add link to your component page for HW */}
     </Panel>
 

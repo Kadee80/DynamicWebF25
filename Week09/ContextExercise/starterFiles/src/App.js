@@ -7,8 +7,8 @@ import ButtonPage from './pages/ButtonPage'
 import AccordionPage from './pages/AccordionPage'
 import DropdownPage from './pages/DropdownPage'
 import ModalPage from './pages/ModalPage'
-import CounterReducerPage from './pages/CounterReducerPage'
-import CounterContextPage from './pages/counterContext'
+import CounterStatePage from './pages/CounterStatePage'
+import CounterContextPage from './pages/CounterContextPage'
 // then your CSS and or DATA files
 // import './index.css'
 // data example
@@ -29,13 +29,9 @@ const App = () => {
           {/* Add route here to your custom component */}
           <Route
             path="/counter"
-            element={<CounterReducerPage initialCount={23} />}
+            element={<CounterStatePage initialCount={23} />}
           />
-
-          <Route
-            path="/context"
-            element={<CounterContextPage initialCount={23} />}
-          />
+          <Route path="/context" element={<CounterContextPage />} />
         </Routes>
       </div>
     </div>
