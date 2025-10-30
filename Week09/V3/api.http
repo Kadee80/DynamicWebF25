@@ -1,0 +1,23 @@
+### Get All Todos
+GET http://localhost:3001/todos HTTP/1.1
+Content-Type: application/json
+
+### Create a New Todo
+POST http://localhost:3001/todos HTTP/1.1
+Content-Type: application/json
+
+{
+  "title" : "Wake up"
+}
+
+### Edit an existing todo by id
+PUT http://localhost:3001/todos/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "title" : "Drink the coffee!"
+}
+
+### Delete an existing todo by id
+DELETE http://localhost:3001/todos/1 HTTP/1.1
+Content-Type: application/json
