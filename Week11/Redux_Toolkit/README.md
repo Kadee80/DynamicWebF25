@@ -31,6 +31,7 @@ We are now going to start using redux toolkit. First we need to install `react-r
 
 ```bash
 npm install redux
+npm install react-redux
 npm install @reduxjs/toolkit
 ```
 
