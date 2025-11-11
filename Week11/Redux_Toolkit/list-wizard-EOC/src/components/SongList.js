@@ -1,3 +1,5 @@
+import {useDispatch, useSelector} from 'react-redux'
+import {addSong, removeSong} from '../store'
 import Button from './Button'
 import Card from './Card'
 import {FaPlus} from 'react-icons/fa'
@@ -6,14 +8,23 @@ import {IoClose} from 'react-icons/io5'
 import {createRandomSong} from '../data'
 
 export default function SongList() {
+  const dispatch = useDispatch()
   // Get list of songs
-  const songPlaylist = ['testing 123']
+  // a selector in redux is a function that takes (at least) state as an agrument and
+  // returns a "selected" piece of state
+  const songPlaylist = useSelector((state) => {
+    return state.songs
+  })
 
   const handleSongAdd = (song) => {
     // Add song to list of songs
+    /* const action = addSong(song)
+    dispatch(action) */
+    dispatch(addSong(song))
   }
   const handleSongRemove = (song) => {
     // Remove song from list of songs
+    dispatch(removeSong(song))
   }
 
   const renderedSongs = songPlaylist.map((song) => {
