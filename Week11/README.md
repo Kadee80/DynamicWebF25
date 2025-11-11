@@ -6,10 +6,12 @@ One option, is to take our bare bones `Todo List App` and reskin it as something
 
 The other option is to build a new tool, game, or site that utilizes at least 2 topics from the second half of the semester. This option is more open, but make sure you dedmonstrate working knowledge of Context, JSON Server, and/or Redux! If you are unsure about your topic, feel free to reach out.
 
-## Presenation Slide Suggestions
+## Presentation Slides
 
 - concept|theme of the site (not just random images and links that show skill)
   an existing website you drew inspiration from (bonus points for Pinterest
   collection or mood board)
 - concepts|skills we have covered that you will use to build your site
 - concepts|skills you need to still learn to complete the project
+
+Look familiar? Yup! Lets get the ball rolling for our final projects and get the concepts and planning out of the way. This will set you up to have a much clearer idea of what you are building and a plan of attack before you begin to code. Suggestion: When you do begin stubbing out your project, think about file/folder organization. If the question pops into your head, "Should I break this out into their own separate files?", the answer is usually YES! Organize and comment yout project in a way that another developer could easily jump in and contribute to the project without an in person code tour by you. 
